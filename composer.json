@@ -1,0 +1,10 @@
+{
+  "require": {
+    "soundasleep/html2text": "^2.0.0",
+    "michelf/php-markdown": "dev-lib#41517384ec5dd8269d964b51b3fe4181c7b80428",
+    "phpseclib/phpseclib": "2.0.*"
+  },
+  "config": {
+    "platform-check": false
+  }
+}

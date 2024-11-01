@@ -1,0 +1,130 @@
+/* Admin CSS */
+
+.ud_rule_option_label {
+	float: left;
+	clear: left;
+	width: 240px;
+}
+
+#updraftmanager_form label {
+	clear: left;
+	width: 240px;
+	float: left;
+}
+
+#updraftmanager_form .wp-editor-wrap, #updraftmanager_form .wp-editor-tools {
+	position: inherit !important;
+}
+
+#updraftmanager_form input[type="radio"].ud_rule_combination, #updraftmanager_form input[type="radio"].ud_rule_firstlast {
+	clear: left;
+	float: left;
+	margin-top: 0px;
+}
+
+/*#updraftmanager_form label.ud_rule_combination {
+	float: left;
+}*/
+
+#updraftmanager_form label.ud_rule_firstlast_innerlabel, #updraftmanager_form label.ud_rule_combination_innerlabel {
+	width: auto;
+	margin-left: 6px;
+	clear:none;
+}
+
+#updraftmanager_form input[type="text"], #updraftmanager_form input[type="radio"], #updraftmanager_form input[type="checkbox"], #updraftmanager_form input[type="file"], #updraftmanager_form input[type="number"], #updraftmanager_form select, div.ud_rulebox {
+	float: left;
+}
+
+#updraftmanager_form div.ud_rulebox {
+	margin-bottom: 16px;
+}
+
+#updraftmanager_form .ud_deleterow {
+	cursor: pointer;
+	color: red;
+	font-size: 120%;
+	font-weight: bold;
+	border: 0px;
+	border-radius: 3px;
+	padding: 2px;
+	margin: 0 6px;
+	float: left;
+}
+
+#updraftmanager_form .ud_deleterow:hover {
+	cursor: pointer;
+	color: white;
+	background: red;
+}
+
+#updraftmanager_form input[type="file"], #updraftmanager_form .infodiv {
+	margin-bottom: 10px;
+}
+
+#updraftmanager_form input[type="submit"], #updraftmanager_form .ud_leftgap, #updraftmanager_form button.button-updraftmanager {
+	clear: left;
+	float: left;
+	margin-top: 10px;
+	margin-left: 240px;
+}
+
+#updraftmanager_form span.udm_description {
+	clear: left;
+	float: left;
+	margin-left: 240px;
+	padding-bottom: 20px;
+	color: #666
+}
+
+#updraftmanager_form {
+	clear: both;
+}
+
+#updraftmanager_form p {
+	clear: both;
+}
+
+.wp-list-table .column-ruleno {
+	width: 10%;
+}
+
+.wp-list-table .column-downloads {
+	width: 15%;
+}
+
+.wp-list-table .column-version {
+	width: 13%;
+}
+
+.wp-list-table .column-testedwpver, .wp-list-table .column-minwpver {
+	width: 20%;
+}
+
+.drag-drop #drag-drop-area {
+	border: 4px dashed #ddd;
+	height: 200px;
+}
+
+#filelist  {
+	clear: left;
+	width: 100%;
+}
+
+#upload-options {
+	clear: left;
+	width: 100%;
+	margin: 6px 10px 6px 20px;
+}
+
+#filelist .file {
+	padding: 5px;
+	background: #ececec;
+	border: solid 1px #ccc;
+	margin: 4px 0;
+}
+#filelist .fileprogress {
+	width: 0%;
+	background: #f6a828;
+	height: 5px;
+}
